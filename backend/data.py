@@ -1,22 +1,25 @@
 from datetime import datetime
-from meteostat import Stations, Monthly, units
+from meteostat import Stations, Monthly, units, Normals
 import pandas as pd
 
 # 1. Set time period
 start = datetime(1990, 1, 1)
 end = datetime(2020, 12, 31)
 
-# 2. Find nearest weather station to Helsinki
+today = datetime.now()
+
 stations = Stations()
-stations = stations.nearby(60.1695, 24.9354)  # Helsinki coordinates
-station = stations.fetch(1)
+stations = stations.fetch()
+stations_in_europe = stations[stations['timezone'].str.contains('Europe')]
+europe_station_indexes = stations_in_europe.index.tolist()
 
-#print("Using station:", station.iloc[0]['name'])
+#print(stations_in_europe)
 
-#print(station.iloc[0])
-
-data = Monthly(station.iloc[0]['wmo'], start, end)
+data = Normals('02978', 1991, 2020)
 data = data.fetch()
-data = data.groupby(data.index.month).mean()
 
-print(data.get(['tavg', 'tmax', 'tmin']))
+print(data)
+
+
+
+

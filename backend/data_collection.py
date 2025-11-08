@@ -30,10 +30,6 @@ data.insert(loc=0, column='normal_month', value=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
 data.insert(loc=1, column='name', value=stations_indexes[0][1])
 data.insert(loc=2, column='country', value=stations_indexes[0][2])
 
-#moi = Normals('02717', 1991, 2020)
-#station = moi.fetch()
-#print(station)
-
 
 with open('europe_stations_txt', 'a') as f:
     for i in range(1, len(stations_indexes)):

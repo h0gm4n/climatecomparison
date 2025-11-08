@@ -2,34 +2,50 @@ import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('weather_data/europe_station_normals.csv')
 
-df = df.drop(df[df['country']=='DE'].index)
-df = df.drop(df[df['country']=='RU'].index)
+def plot_map(month, temperature):
+    df = pd.read_csv('weather_data/europe_station_normals.csv')
+    df = df.drop(df[df['country']=='RU'].index) # drop Russia
+    df = df.drop(df[df['country']=='UA'].index) # drop Ukraine
+    df = df.drop(df[df['country']=='BY'].index) # drop Belarus
+    df = df.loc[(df['tmax'] > temperature) & (df['normal_month'] == month)]
 
-gdf = gpd.GeoDataFrame(
-    df, geometry=gpd.points_from_xy(df['longitude'], df['latitude']), crs="EPSG:4326"
-)
+    print(df)
 
-world = gpd.read_file('static/maps/110m_cultural/ne_110m_admin_0_countries.shp')
+    gdf = gpd.GeoDataFrame(
+        df, geometry=gpd.points_from_xy(df['longitude'], df['latitude']), crs="EPSG:4326"
+    )
 
-europe = world[world['CONTINENT'] == 'Europe']
+    world = gpd.read_file('static/maps/110m_cultural/ne_110m_admin_0_countries.shp')
 
-gdf = gpd.sjoin(gdf, europe[['geometry']], how='inner', predicate='within')
+    europe = world[(world['CONTINENT'] == 'Europe') | (world['CONTINENT'] == 'Africa')]
 
-ax = europe.plot(color="white", edgecolor="black", figsize=(12,12))
+    #gdf = gpd.sjoin(gdf, europe[['geometry']], how='inner', predicate='within')
 
-# Plot points
-gdf.plot(ax=ax, color='red', markersize=5)
+    ax = europe.plot(color="white", edgecolor="black", figsize=(12,12))
 
-# --- LIMIT VIEW TO EUROPE BOUNDS ---
-ax.set_xlim(-25, 45)
-ax.set_ylim(34, 75)
+    ax.set_xlim(-25, 45)
+    ax.set_ylim(25, 75)
 
-for x, y, label in zip(gdf.geometry.x, gdf.geometry.y, gdf['name']):
-    ax.text(x + 0.02, y + 0.02, label, fontsize=6)
+    for x, y, label in zip(gdf.geometry.x, gdf.geometry.y, gdf['name'] + ' (' + gdf['tmax'].astype(str) + ')'):
+        ax.text(x + 0.02, y + 0.02, label, fontsize=10)
 
-plt.show()
+    gdf.plot(ax=ax, color='red', markersize=10)
+
+    plt.show()
+
+def gui():
+    while True:
+        user_input = input("Enter month and minimum temperature: ")
+        if user_input == "":
+            break
+        user_input = user_input.split()
+        month = float(user_input[0])
+        temperature = float(user_input[1])
+        plot_map(month, temperature)
+
+gui()
+
 
 
 

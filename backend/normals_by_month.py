@@ -1,10 +1,11 @@
 from datetime import datetime
 from meteostat import Stations, Monthly, units, Normals
 import pandas as pd
+import numpy as np
 import os
 path = os.path.dirname(os.path.abspath(__file__))
 
-
+'''
 df = pd.read_csv(f'weather_data/europe_stations_with_normals', delimiter=';')
 
 first_id = df.iloc[0]['id']
@@ -47,3 +48,17 @@ for index, row in df.iloc[2:].iterrows():
 all_normals.to_csv('europe_station_normals.csv')
 """
 print(first_normal)
+'''
+
+df = pd.read_csv(f'weather_data/europe_station_normals.csv')
+stations = Stations()
+stations = stations.fetch()
+stations['id'] = stations.index
+stations = stations.reset_index(drop=True)
+stations = stations[['id', 'latitude', 'longitude']]
+
+df_result = df.merge(stations, on='id', how='inner')
+
+df_result.to_csv('weather_data/europe_station_normals.csv',index=False)
+
+

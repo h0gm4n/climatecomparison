@@ -4,10 +4,7 @@ import matplotlib.pyplot as plt
 
 
 def plot_map(month, temperature):
-    df = pd.read_csv('weather_data/europe_station_normals.csv')
-    df = df.drop(df[df['country']=='RU'].index) # drop Russia
-    df = df.drop(df[df['country']=='UA'].index) # drop Ukraine
-    df = df.drop(df[df['country']=='BY'].index) # drop Belarus
+    df = pd.read_csv('weather_data/africa_station_normals.csv')
     df = df.loc[(df['tmax'] > temperature) & (df['normal_month'] == month)]
 
     print(df)
@@ -25,7 +22,7 @@ def plot_map(month, temperature):
     ax = europe.plot(color="white", edgecolor="black", figsize=(12,12))
 
     ax.set_xlim(-25, 45)
-    ax.set_ylim(25, 75)
+    ax.set_ylim(-50, 45)
 
     for x, y, label in zip(gdf.geometry.x, gdf.geometry.y, gdf['name'] + ' (' + gdf['tmax'].astype(str) + ')'):
         ax.text(x + 0.02, y + 0.02, label, fontsize=10)

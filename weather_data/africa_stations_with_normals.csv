@@ -1,0 +1,584 @@
+id;name;country
+40572;South Dolphin;KW
+60096;Villa Cisneros;EH
+60101;Tanger Aerodrome;MA
+60115;Oujda;MA
+60120;Kenitra;MA
+60135;Rabat-Sale;MA
+60150;Meknes;MA
+60155;Casablanca;MA
+60195;Midelt;MA
+60220;Essaouira;MA
+60230;Marrakech;MA
+60250;Agadir;MA
+60265;Ouarzazate;MA
+60318;Tetuan / Sania Ramel;MA
+60351;Jijel Achouat;DZ
+60353;Jijel Port;DZ
+60355;Skikda;DZ
+60360;Annaba;DZ
+60367;El-Kala;DZ
+60369;Alger Port;DZ
+60387;Dellys;DZ
+60390;Dar-El-Beida;DZ
+60395;Tizi-Ouzou;DZ
+60401;Bejaia-Port / Béjaïa;DZ
+60402;Bejaia;DZ
+60403;Guelma;DZ
+60405;Guelma / Bouchegouf;DZ
+60410;Tenes;DZ
+60415;Ain-Bessam / Oulad Zidane;DZ
+60417;Bouira;DZ
+60419;Constantine;DZ
+60421;Oum El Bouaghi;DZ
+60423;Souk Ahras;DZ
+60425;Chlef;DZ
+60430;Miliana;DZ
+60437;Medea;DZ
+60444;Bordj Bou Arreridj;DZ
+60445;Setif;DZ
+60452;Arzew;DZ
+60457;Mostaganem Ville;DZ
+60461;Oran Port;DZ
+60467;M'Sila;DZ
+60468;Batna;DZ
+60471;Barika;DZ
+60475;Tebessa;DZ
+60476;Khenchella;DZ
+60490;Oran / Es Senia;DZ
+60492;Relizane;DZ
+60506;Mascara Metmore;DZ
+60507;Mascara-Ghriss;DZ
+60511;Tiaret;DZ
+60514;Ksar Chellala;DZ
+60515;Bou-Saada;DZ
+60517;Ghazaouet;DZ
+60518;Beni-Saf;DZ
+60520;Sidi Bel Abbes;DZ
+60522;Maghnia;DZ
+60525;Biskra;DZ
+60531;Tlemcen Zenata;DZ
+60535;Djelfa;DZ
+60536;Saida;DZ
+60540;El Kheiter;DZ
+60545;Laghouat;DZ
+60549;Mecheria;DZ
+60550;Elbayadh;DZ
+60555;Touggourt;DZ
+60557;Naama;DZ
+60559;El Oued;DZ
+60560;Ain Sefra;DZ
+60563;Hassir'Mel / Berriane;DZ
+60566;Ghardaia;DZ
+60571;Bechar;DZ
+60580;Ouargla;DZ
+60581;Hassi-Messaoud;DZ
+60590;El Golea;DZ
+60602;Beni Abbes;DZ
+60607;Timimoun;DZ
+60611;In Amenas;DZ
+60620;Adrar;DZ
+60630;In Salah;DZ
+60640;Illizi;DZ
+60656;Tindouf;DZ
+60670;Djanet;DZ
+60680;Tamanrasset;DZ
+60686;Bordji B. Mokhtar;DZ
+60690;In-Guezzam;DZ
+60715;Tunis-Carthage;TN
+60725;Jendouba;TN
+60735;Kairouan;TN
+60745;Gafsa;TN
+60765;Gabes;TN
+61017;Bilma;NE
+61024;Agadez;NE
+61036;Tillabery;NE
+61043;Tahoua;NE
+61045;Goure;NE
+61049;N'Guigmi;NE
+61052;Niamey-Aero;NE
+61075;Birni-N'Konni;NE
+61080;Maradi;NE
+61085;Diffa;NE
+61090;Zinder;NE
+61091;Magaria;NE
+61096;Maine-Soroa;NE
+61099;Gaya;NE
+61202;Tessalit;ML
+61214;Kidal;ML
+61223;Tombouctou;ML
+61226;Gao;ML
+61230;Nioro Du Sahel;ML
+61233;Nara;ML
+61235;Yelimane;ML
+61240;Hombori;ML
+61250;Menaka;ML
+61257;Kayes;ML
+61265;Mopti;ML
+61270;Kita;ML
+61272;Segou;ML
+61277;San;ML
+61285;Kenieba;ML
+61291;Bamako / Senou;ML
+61293;Koutiala;ML
+61296;Bougouni;ML
+61297;Sikasso;ML
+61401;Bir Moghrein;MR
+61404;Zouerate;MR
+61415;Nouadhibou;MR
+61421;Atar;MR
+61437;Akjoujt;MR
+61442;Nouakchott;MR
+61450;Tidjikja;MR
+61461;Boutilimit;MR
+61489;Rosso;MR
+61492;Kaedi;MR
+61497;Nema;MR
+61498;Kiffa;MR
+61499;Aioun El Atrouss;MR
+61600;Saint-Louis;SN
+61612;Podor;SN
+61627;Linguere;SN
+61630;Matam;SN
+61641;Dakar / Yoff;SN
+61666;Diourbel;SN
+61679;Kaolack;SN
+61687;Tambacounda;SN
+61695;Ziguinchor;SN
+61697;Cap-Skirring;SN
+61698;Kolda;SN
+61699;Kedougou;SN
+61701;Banjul / Yundum;GM
+61766;Bissau Aeroport;GW
+61769;Bolama;GW
+61809;Labe;GN
+61811;Siguiri;GN
+61818;Kindia;GN
+61820;Mamou;GN
+61829;Kankan;GN
+61832;Conakry / Gbessia;GN
+61834;Kissidougou;GN
+61856;Lungi;SL
+61866;Bonthe;SL
+61873;Makeni;SL
+61878;Njala;SL
+61881;Bo;SL
+61886;Kabala;SL
+61891;Daru;SL
+61892;Sefadu;SL
+61931;S. Tome;ST
+62002;Nalut;LY
+62007;Zuara;LY
+62010;Tripoli Inter-National Airport;LY
+62016;Misurata;LY
+62019;Sirte;LY
+62053;Benina;LY
+62055;Agedabia;LY
+62056;Shahat;LY
+62059;Derna;LY
+62103;Ghadames;LY
+62120;Gariat El-Sharghia;LY
+62124;Sebha;LY
+62131;Hon;LY
+62161;Jalo;LY
+62176;Giarabub;LY
+62259;Tazerbo;LY
+62271;Kufra;LY
+62306;Mersa Matruh;EG
+62318;Alexandria / Nouzha;EG
+62333;Port Said;EG
+62337;El Arish;EG
+62366;Cairo International Airport;EG
+62378;Helwan;EG
+62387;Minya;EG
+62393;Asyut;EG
+62405;Luxor;EG
+62414;Asswan;EG
+62417;Siwa;EG
+62420;Baharia;EG
+62423;Farafra;EG
+62432;Dakela;EG
+62435;Kharga;EG
+62463;Hurguada;EG
+62600;Wadi Halfa;SD
+62640;Abu Hamed;SD
+62641;Port Sudan;SD
+62650;Dongola;SD
+62660;Karima;SD
+62680;Atbara;SD
+62721;Khartoum;SD
+62730;Kassala;SD
+62733;Halfa El Gedida;SD
+62750;Ed Dueim;SD
+62751;Wad Medani;SD
+62752;Gedaref;SD
+62760;El Fasher;SD
+62762;Sennar;SD
+62770;Geneina;SD
+62771;El Obeid;SD
+62772;Kosti;SD
+62781;En Nahud;SD
+62790;Nyala;SD
+62795;Abu Na'Ama;SD
+62801;Renk;SD
+62803;Rashad;SD
+62805;Damazine;SD
+62809;Babanusa;SD
+62810;Kadugli;SD
+62840;Malakal;SD
+62880;Wau;SD
+62941;Juba;SD
+63021;Asmara;ET
+63023;Massawa;ET
+63043;Assab;ET
+63125;Djibouti;DJ
+63260;Mogadiscio;SO
+63330;Makale;ET
+63331;Gondar;ET
+63332;Bahar Dar;ET
+63333;Combolcha;ET
+63334;Debremarcos;ET
+63402;Jimma;ET
+63403;Gore;ET
+63450;Addis Ababa;ET
+63451;Harar Meda;ET
+63453;Metehara;ET
+63460;Awassa;ET
+63471;Dire Dawa;ET
+63473;Jiggiga;ET
+63474;Robe;ET
+63478;Gode;ET
+63533;Neghelli;ET
+63612;Lodwar;KE
+63619;Moyale;KE
+63624;Mandera;KE
+63630;Gulu;UG
+63654;Masindi;UG
+63661;Kitale;KE
+63671;Wajir;KE
+63674;Kasese;UG
+63682;Jinja;UG
+63684;Tororo;UG
+63686;Eldoret;KE
+63702;Mbarara;UG
+63705;Entebbe Airport;UG
+63723;Garissa;KE
+63726;Kabale;UG
+63729;Bukoba;TZ
+63733;Musoma;TZ
+63740;Nairobi ACC/FIC/RCC/MET/COM/;KE
+63756;Mwanza;TZ
+63789;Arusha;TZ
+63790;Moshi;TZ
+63791;Kilimanjaro Airport;TZ
+63799;Malindi;KE
+63816;Same;TZ
+63820;Mombasa;KE
+63832;Tabora Airport;TZ
+63862;Dodoma;TZ
+63887;Iringa;TZ
+63894;Dar Es Salaam Airport;TZ
+63962;Songea;TZ
+63971;Mtwara;TZ
+64005;Mbandaka;CD
+64014;Lisala;CD
+64015;Libenge;CD
+64034;Buta;CD
+64040;Kisangani;CD
+64062;Isiro;CD
+64076;Bunia;CD
+64115;Inongo;CD
+64126;Boende;CD
+64146;Lodja;CD
+64155;Kindu;CD
+64207;Matadi;CD
+64210;Kinshasa / N'Djili;CD
+64222;Kikwit;CD
+64235;Kananga;CD
+64247;Mbuji-Mayi;CD
+64282;Manono;CD
+64285;Kalemie;CD
+64360;Lubumbashi-Luano;CD
+64387;Kigali;RW
+64390;Bujumbura;BI
+64397;Muyinga;BI
+64400;Pointe-Noire;CG
+64401;Loubomo;CG
+64402;Mouyondzi;CG
+64403;Makabana;CG
+64405;Sibiti;CG
+64450;Brazzaville / Maya-Maya;CG
+64452;M'Pouya;CG
+64453;Djambala;CG
+64454;Gamboma;CG
+64456;Makoua;CG
+64458;Ouesso;CG
+64459;Impfondo;CG
+64460;Souanke;CG
+64500;Libreville;GA
+64501;Port-Gentil;GA
+64503;Mayumba;GA
+64504;Cocobeach;GA
+64507;Tchibanga;GA
+64510;Bitam;GA
+64545;Mekambo;GA
+64550;Mouila;GA
+64551;Lambarene;GA
+64552;Mitzic;GA
+64556;Makokou;GA
+64560;Lastoursville;GA
+64565;Moanda;GA
+64660;Bambari;CF
+64700;Ndjamena;TD
+64701;Mao;TD
+64702;Bol-Berim;TD
+64705;Bousso;TD
+64706;Moundou;TD
+64708;Bokoro;TD
+64709;Pala;TD
+64750;Sarh;TD
+64751;Ati;TD
+64753;Faya;TD
+64754;Am-Timan;TD
+64756;Abeche;TD
+64758;Mongo;TD
+64851;Maroua-Salak;CM
+64860;Garoua;CM
+64870;Ngaoundere;CM
+64882;Meiganga;CM
+64890;Mamfe;CM
+64893;Koundja;CM
+64900;Yoko;CM
+64910;Douala Obs.;CM
+64931;Batouri;CM
+64950;Yaounde;CM
+64960;Abong-Mbang;CM
+64971;Kribi;CM
+65046;Kano;NG
+65082;Maiduguri;NG
+65101;Ilorin;NG
+65123;Minna;NG
+65134;Jos;NG
+65167;Yola;NG
+65201;Lagos / Ikeja;NG
+65250;Port Harcourt;NG
+65257;Enugu;NG
+65271;Makurdi;NG
+65306;Kandi;BJ
+65319;Natitingou;BJ
+65330;Parakou;BJ
+65335;Save;BJ
+65338;Bohicon;BJ
+65344;Cotonou;BJ
+65351;Dapaon;TG
+65352;Mango;TG
+65355;Niamtougou;TG
+65357;Kara;TG
+65361;Sokode;TG
+65376;Atakpame;TG
+65380;Tabligbo;TG
+65387;Lome;TG
+65418;Tamale;GH
+65439;Sunyani;GH
+65442;Kumasi;GH
+65467;Takoradi;GH
+65472;Accra;GH
+65501;Dori;BF
+65502;Ouahigouya;BF
+65503;Ouagadougou;BF
+65505;Dedougou;BF
+65507;Fada N'Gourma;BF
+65510;Bobo-Dioulasso;BF
+65516;Boromo;BF
+65518;Po;BF
+65522;Gaoua;BF
+65528;Odienne;CI
+65536;Korhogo;CI
+65545;Bondoukou;CI
+65548;Man;CI
+65555;Bouake;CI
+65557;Gagnoa;CI
+65560;Daloa;CI
+65562;Dimbokro;CI
+65563;Yamoussoukro;CI
+65578;Abidjan;CI
+65585;Adiake;CI
+65592;Tabou;CI
+65594;San Pedro;CI
+65599;Sassandra;CI
+65660;Grand Bassa, Roberts Field;LR
+66104;Cabinda;AO
+66130;N'Zeto Ambrizete;AO
+66140;Carmona;AO
+66160;Luanda;AO
+66215;Malange;AO
+66226;Saurimo Henrique Decarvalho;AO
+66240;Porto Amboim;AO
+66270;Waku Kungu Cela;AO
+66285;Luena Luso;AO
+66305;Lobito;AO
+66310;Monbaca Benguela;AO
+66318;Huambo Nova Lisboa;AO
+66325;Bie Silva Porto;AO
+66390;Lubango Sa Da Bandeira;AO
+66410;Menongue Serpa Pinto;AO
+66422;Mocamedes;AO
+66447;Mavinga;AO
+67215;Pemba;MZ
+67217;Lichinga;MZ
+67237;Nampula;MZ
+67261;Tete;MZ
+67283;Quelimane;MZ
+67295;Chimoio;MZ
+67297;Beira;MZ
+67323;Inhambane;MZ
+67335;Xai Xai;MZ
+67341;Maputo / Mavalane;MZ
+67403;Kawambwa;ZM
+67421;Chitipa;MW
+67423;Karonga;MW
+67424;Bolero;MW
+67441;Mwinilunga;ZM
+67475;Kasama;ZM
+67485;Mzimba;MW
+67489;Mzuzu;MW
+67493;Nkhata Bay;MW
+67531;Zambezi;ZM
+67581;Chipata;ZM
+67585;Chitedze;MW
+67586;Lilongwe International Airport;MW
+67587;Lilongwe / Nchesi;MW
+67588;N. R. C.;MW
+67591;Nkhota Kota;MW
+67597;Salima;MW
+67633;Mongu;ZM
+67663;Kabwe;ZM
+67687;Chichiri;MW
+67689;Dedza;MW
+67692;Makoka;MW
+67693;Chileka;MW
+67695;Mangochi;MW
+67699;Mimosa;MW
+67743;Livingstone;ZM
+67755;Binga;ZW
+67761;Kariba;ZW
+67765;Karoi;ZW
+67774;Harare Belvedere;ZW
+67775;Harare Kutsaga;ZW
+67779;Mount Darwin;ZW
+67781;Mutoko;ZW
+67789;Mvurwi;ZW
+67791;Bvumbwe;MW
+67793;Thyolo;MW
+67797;Makanga;MW
+67843;Victoria Falls;ZW
+67853;Hwange National Park;ZW
+67861;Gokwe;ZW
+67865;Kwekwe;ZW
+67867;Gweru;ZW
+67889;Wyanga;ZW
+67964;Bulawayo Goetz Obsy.;ZW
+67965;Bulawayo Airport;ZW
+67969;West Nicholson;ZW
+67975;Masvingo;ZW
+67977;Buffalo Range;ZW
+67983;Chipinge;ZW
+67991;Beitbridge;ZW
+68010;Okaukuejo;nan
+68014;Grootfontein;nan
+68018;Rundu;nan
+68024;Ghanzi;BW
+68026;Shakawe;BW
+68029;Kasane;BW
+68032;Maun;BW
+68054;Francistown;BW
+68106;Gobabeb;nan
+68110;Windhoek;nan
+68112;J. G. Strijdom;nan
+68114;Omaruru;nan
+68116;Gobabis;nan
+68159;Cumberland / Lokala Drift;ZA
+68171;Alldays;ZA
+68174;Pietersburg;ZA
+68184;Lydenburg;ZA
+68194;Pafuri / Pafúri;ZA
+68226;Tshane;BW
+68241;Madikwe Game Reserve;ZA
+68242;Mafikeng Intl. Ad;ZA
+68244;Gaborone;BW
+68262;Pretoria;ZA
+68263;Pretoria Irene;ZA
+68276;Potgietersrus;ZA
+68296;Skukuza;ZA
+68322;Twee Riviere;ZA
+68328;Tsabong;BW
+68335;Taung / Lethola;ZA
+68338;Vryburg;ZA
+68341;Lichtenburg / Ooseinde;ZA
+68342;Ottosdal;ZA
+68350;Potchefstroom Agric.;ZA
+68351;Potchefstroom Upper-Air;ZA
+68368;Johannesburg Airport;ZA
+68370;Bethal;ZA
+68387;Vryheid;ZA
+68396;Manzini / Matsapa Airport;SZ
+68406;Alexander Bay;ZA
+68411;Vioolsdrif;ZA
+68424;Upington, Up-Apt;ZA
+68429;Postmasburg;ZA
+68438;Kimberley, Kim-Apt;ZA
+68442;Bloemfontein, Bloemfontein Airport;ZA
+68449;Ficksburg;ZA
+68461;Bethlehem Airport;ZA
+68471;Van Reenen;ZA
+68476;Ladysmith;ZA
+68496;Cape Saint Lucia;ZA
+68497;Mtunzini / Good Hope;ZA
+68512;Springbok;ZA
+68514;Henkries / Henkries Mond;ZA
+68530;Douglas;ZA
+68536;De Aar;ZA
+68538;De Aar;ZA
+68545;Venterstad;ZA
+68546;Aliwal North;ZA
+68558;Barkly East;ZA
+68570;Matatiele;ZA
+68574;Kokstad / Kempdale;ZA
+68580;Cedara;ZA
+68584;Port Shepstone;ZA
+68588;Durban, Durban International Airport;ZA
+68592;King Shaka Int'l Airport / Densainagar;ZA
+68616;Vanrhysdorp / Vanrhynsdorp;ZA
+68618;Calvinia;ZA
+68624;Fraserburg;ZA
+68633;Noupoort;ZA
+68648;Queenstown;ZA
+68649;Jamestown;ZA
+68674;Port St Johns;ZA
+68712;Cape Columbine;ZA
+68715;Malmesbury;ZA
+68718;Robertson;ZA
+68723;Laingsburg;ZA
+68728;Beaufort West;ZA
+68736;Graaff Reinet;ZA
+68738;Jansenville;ZA
+68742;Somerset East;ZA
+68744;Cradock;ZA
+68747;Fort Beaufort;ZA
+68754;Dohne;ZA
+68815;Langebaan / Donkergat;ZA
+68816;Cape Town Airport;ZA
+68818;Touws River;ZA
+68821;Worcester;ZA
+68826;Oudtshoorn;ZA
+68828;George, George Airport;ZA
+68832;Willowmore;ZA
+68842;Port Elizabeth, Port E Apt;ZA
+68847;Port Alfred / Westview Heights;ZA
+68849;Grahamstown / West Hill;ZA
+68858;East London Airport;ZA
+68906;Gough Island;ZA
+68920;Cape Agulhas;ZA
+68926;Riversdale;ZA
+68938;Cape Saint Francis;ZA
+68994;Marion Island;ZA

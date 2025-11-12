@@ -5,8 +5,9 @@ import numpy as np
 import os
 path = os.path.dirname(os.path.abspath(__file__))
 
+
 '''
-df = pd.read_csv(f'weather_data/europe_stations_with_normals', delimiter=';')
+df = pd.read_csv(f'weather_data/africa_stations_with_normals.csv', delimiter=';')
 
 first_id = df.iloc[0]['id']
 
@@ -19,7 +20,7 @@ first_normal.insert(2, 'country', df.iloc[0]['country'])
 first_normal.insert(3, 'normal_month', first_normal.index)
 first_normal.set_index('id', inplace=True)
 
-"""
+
 second_id = df.iloc[1]['id']
 second_normal = Normals(second_id, 1991, 2020)
 second_normal = second_normal.fetch()
@@ -45,12 +46,14 @@ for index, row in df.iloc[2:].iterrows():
     except Exception as e:
         print(f'Could not fetch normals for station {station_id} - {row["name"]}: {e}')
 
-all_normals.to_csv('europe_station_normals.csv')
-"""
-print(first_normal)
+all_normals.to_csv('africa_station_normals.csv')
+
+#print(first_normal)
 '''
 
-df = pd.read_csv(f'weather_data/europe_station_normals.csv')
+
+df = pd.read_csv(f'africa_station_normals.csv')
+df['id'] = df['id'].astype(str)
 stations = Stations()
 stations = stations.fetch()
 stations['id'] = stations.index
@@ -59,6 +62,5 @@ stations = stations[['id', 'latitude', 'longitude']]
 
 df_result = df.merge(stations, on='id', how='inner')
 
-df_result.to_csv('weather_data/europe_station_normals.csv',index=False)
-
+df_result.to_csv('weather_data/africa_station_normals.csv',index=False)
 
